@@ -5,5 +5,6 @@ CREATE TABLE EMPLOYEE (
     DeptID INT,
     Salary DECIMAL(10, 2),
     HireDate DATE,
+    Submission_date date,
     FOREIGN KEY (DeptID) REFERENCES Department(DeptID)
 );
